@@ -1,0 +1,121 @@
+
+*{
+    margin: 0%;
+}
+
+.main-section{
+    display: flex;
+}
+.leftblock{
+    background-color: black;
+    height: 450px;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section-1{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: linear-gradient(to left, transparent,70%, black),
+    url(../images/home-screen/1000364.jpg);
+    /* background-position: right; */
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    color: white;
+    
+}
+.text1{
+    font-size: 20px;
+}
+.star-section{
+    display: flex;
+}
+.star{
+   display: flex;
+}
+.star>svg{
+    color: #a51018;
+    height: 20px;
+    width: 20px;
+}
+.text2{
+    display: flex;
+    padding: 10px 10px 20px 0px;
+}
+.text2>div{
+    padding-right: 10px;
+}
+.text4{
+    color: rgb(196, 193, 193);
+    display: flex;
+}
+.trophy>svg{
+    color: #a51018;
+    height: 40px;
+    width: 40px;
+    padding-right: 20px;
+}
+.text-block{
+    padding: 60px 0px 60px 100px;
+    position: absolute;
+    left: 1%;
+}
+.text3{
+    font-size: 22px;
+    color: rgb(196, 193, 193);
+}
+.text4{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.section-2{
+    background-color: black;
+}
+.image-container-1{
+    display: flex;
+    overflow-y: scroll;
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.image-container-1>div{
+    padding: 20px;
+}
+.squid-game{
+    padding: 10px;
+    text-align: center;
+}
+.image-container-2{
+    display: flex;
+    overflow-y: scroll;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.image-container-2>div{
+    padding: 20px;
+}
+.star-section2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.star2{
+    display: flex;
+ }
+ .star2>svg{
+     color: #f5ce21;
+     height: 20px;
+     width: 20px;
+ }
